@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Bulma Example</title>
+    <!-- Include Bulma CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  </head>
+  <body>
+    <nav class="navbar is-info" role="navigation" aria-label="main  navigation">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">
+              <img src="https://bulma.io/images/bulma-type.png"  width="112" height="28">
+          </a>
+          <span id="navbarBasicExample" class="navbar-burger" data-target="navbarExampleTransparentExample">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="#">Home</a>
+                <a class="navbar-item" href="#">About</a>
+                <a class="navbar-item" href="#">Contact</a>
+            </div>
+        </div>
+      </div>
+    </nav>
+    
+
+    <!-- Basic container example -->
+    <div class="container">
+      <h1 class="title mt-4">Welcome to Bulma!</h1>
+      <p class="subtitle">This is a basic HTML file using the Bulma CSS framework from CDN.</p>
+      
+      <!-- Box example -->
+      <div class="box">
+        <p>This is a box with a headline and some text inside.</p>
+        <h2 class="title is-5">Headline</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut mi nec ex tincidunt euismod ac sed purus.</p>
+      </div>
+    </div>
+    <!-- Form example -->
+    <div class="container my-6 is-fluid">
+      <form>
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control has-icons-left has-icons-right">
+              <input class="input" type="email" placeholder="Email">
+            </div>
+          </div>
+          <div class="field">
+            <label class="label">Password</label>
+            <div class="control has-icons-left">
+              <input class="input" type="password" placeholder="Password">
+            </div>
+          </div>
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-info is-medium">Submit</button>
+            </div>
+            <div class="control">
+              <a class="button is-light is-medium">Cancel</a>
+            </div>
+          </div>
+      </form>
+    </div>
+    <!-- Panel example -->
+    <div class="container is-fluid">
+      <article class="message is-info">
+          <div class="message-header">
+              <p>Panel Title</p>
+              <button class="delete"></button>
+          </div>
+          <div class="message-body">
+            <p>Panel Subtitle</p>
+            <p>This is the content of the panel. You can put anything you want here, including text and images.</p>
+          </div>
+      </article>
+  </div>
+
+
+  </body>
+</html>

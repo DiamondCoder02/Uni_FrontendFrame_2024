@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="domintro.js" defer></script>
+  <title>DOM handling</title>
+</head>
+<body>
+  <div class="example1 m-4">
+    <div id="message" class="text-blue-500">1. példa: szöveges tartalom megváltoztatása</div>
+    <button id="changeTextBtn" class="mt-4 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-500">Változzon a szöveg</button>
+  </div>
+  <div class="example2 ml-4 mt-6 w-1/2" >
+    <div id="toggleDiv" class="bg-red-700 text-white py-2 px-4 rounded">2. példa: Láthatóság ki-be kapcsolása</div>
+    <button id="toggleVisibilityBtn" class="mt-4 bg-gray-500 text-white py-2 px-4 rounded hover:bg-gray-400">Kikapcs/bekapcs</button>
+  </div>
+  <div class="example3 ml-4 mt-6">
+    <div id="items" class="mt-4">3. példa: új elem hozzáadása</div>
+    <button id="addItemBtn" class="bg-green-500 text-white py-2 px-4 rounded hover:bg-cyan-700">Új elem</button>
+  </div>
+  <div class="example4 ml-4 mt-6"><p class="mb-2">4. példa: Űrlapok</p>
+    <form id="form" class="flex flex-col space-y-2 w-1/4">
+      <input id="inputText" type="text" placeholder="Írj ide valamit" class="border border-gray-300 p-2 rounded">
+      <button type="submit" class="bg-purple-600 text-white py-2 px-4 rounded hover:bg-purple-500">Mehet</button>
+    </form>
+    <div id="formOutput" class="mt-4"></div>    
+  </div>
+  <div class="example5 ml-4 mt-6 p-2 w-1/4 border-2 border-sky-300 rounded hover:shadow-md">
+    <p class="mb-2">5. példa: billentyűzet események figyelése</p>
+    <div>Nyomj meg egy gombot és megváltozik a szöveg színe!</div>
+    <div id="keyPressDiv" class="text-gray-600">Figyeld a változást!</div>    
+  </div>
+</body>
+</html>
